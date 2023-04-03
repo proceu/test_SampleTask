@@ -1,0 +1,20 @@
+.app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'Campton';
+  src: url('src/fonts/Campton-LightDEMO.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Campton';
+  src: url('src/fonts/Campton-BoldDEMO.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

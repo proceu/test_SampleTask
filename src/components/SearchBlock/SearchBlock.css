@@ -1,0 +1,94 @@
+.SearchBlock {
+	background: #FFFFFF;
+	border: 1px solid #E1E3E6;
+	box-shadow: 9px 32px 35px rgba(0, 0, 0, 0.0464653);
+	border-radius: 14px;
+	width: 494px;
+	height: 446px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.SearchBlock__bottonSection {
+	position: relative;
+	height: 15%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+.SearchBlock__button {
+	padding: 5px 12px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	background: #60D09B;
+	border-radius: 50px;
+	border: 0;
+	padding: 8px 25px;
+	color: #FFFFFF;
+	width: 87px;
+	height: 38px;
+}
+
+.SearchBlock__buttonWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20%;
+	font-weight: 550;
+	font-size: 16px;
+	line-height: 22px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.SearchBlock__line {
+	left: 0;
+	padding: 0;
+	margin: 0;
+	top: 0px;
+	position: absolute;
+	width: 95%;
+	background-color: #ECECEC;
+
+	height: 1px;
+}
+
+.SearchBlock__buttonClear {
+	cursor: pointer;
+}
+
+.SearchBlock__topSection {
+	height: 8%;
+}
+
+.SearchBlock__centerSection {
+	height: 80%;
+}
+
+.SearchBlock__switcherWrapper {
+	display: flex;
+
+	align-items: center;
+}
+
+.SearchBlock__arrayWrapper {
+	height: 80%;
+	overflow-y: scroll;
+	max-height: 300px;
+}
+
+.SearchBlock__arrayWrapper::-webkit-scrollbar {
+	width: 8px;
+}
+
+
+.SearchBlock__arrayWrapper::-webkit-scrollbar-thumb {
+	background-color: rgba(52, 52, 52, 0.51);
+	border-radius: 4px;
+
+}

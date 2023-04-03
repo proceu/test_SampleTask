@@ -1,0 +1,20 @@
+.InputSearch {
+	border: 0;
+	height: 100%;
+	width: 100%;
+	outline-color: white;
+	box-shadow: none;
+	color: #343434;
+	font-style: normal;
+	font-weight: 475;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.5px;
+	border-bottom: 1px solid #ECECEC;
+	border-radius: 0;
+
+}
+
+.InputSearch::placeholder {
+	color: #343434;
+}
